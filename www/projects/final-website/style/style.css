@@ -1,0 +1,92 @@
+html {
+  font-size: 15px;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 150px;
+  color: #008000;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 100px;
+  color: #008000;
+  font-size: 40px;
+  text-align: center;
+}
+
+html {
+  background-color: #99ff66;
+}
+
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+ }
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+li:hover {
+	color: #b366ff;
+	cursor: pointer;
+}
+a:hover {
+	color: #ff1a1a;
+	cursor: pointer;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+        @media screen and (max-width: 600px) {

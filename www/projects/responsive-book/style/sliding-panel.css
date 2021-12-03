@@ -1,0 +1,76 @@
+/* Sliding Panel and Button Styles */
+
+:root { /* global variables */
+	--sliding-panel-color: white;
+	--sliding-panel-background-color: lightgray;
+	--sliding-panel-width: 300px;
+	--sliding-panel-padding: 10px;
+	--sliding-panel-left-closed: -370px;
+	--sliding-panel-left-opened: -370px;
+	--panel-button-content-open:  "📘";
+	--panel-button-content-close: "📖";
+	--panel-button-font-size: 1em;
+	--panel-button-color: black;
+	--panel-button-top: 2px;
+	--panel-button-left-open: 20px;
+}
+
+/*
+@media screen and (max-width: 600px) {
+	:root {
+		--sliding-panel-width: 100%;
+	}
+}
+*/
+
+/* default closed state */
+#sliding-panel {
+	background-color: var(--sliding-panel-background-color);
+	color: var(--sliding-panel-color);
+	width: var(--sliding-panel-width);
+	height: 100%;
+	overflow: scroll;
+	padding: var(--sliding-panel-padding);
+	position: fixed;
+	top: 0;
+	left: var(--sliding-panel-left-closed);
+	transition: 0.6s all;
+}
+#panel-button.panel-open {
+	left: var(--panel-button-left-open);
+}
+
+#panel-button a::before {
+	color: var(--panel-button-color);
+}
+/* the open state */
+#sliding-panel.panel-open {
+	left: 0;
+}
+
+/* #panel-button must be contained within #sliding-panel */
+#panel-button {
+	font-size: var(--panel-button-font-size);
+	z-index: 1;
+	cursor: pointer;
+	position: fixed;
+	top: var(--panel-button-top);
+	left: var(--panel-button-left-closed);
+	transition: 0.6s all;
+}
+
+#panel-button.panel-open {
+	left: var(--panel-button-left-open);
+}
+
+#panel-button a::before {
+	color: var(--panel-button-color);
+}
+
+#panel-button a::before {
+	content: var(--panel-button-content-open);
+}	
+
+#panel-button.panel-open a::before {
+	content: var(--panel-button-content-close);
+}

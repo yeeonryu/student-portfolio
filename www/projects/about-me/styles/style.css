@@ -1,0 +1,60 @@
+html {
+  font-size: 15px;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;	
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color: #FFC0CB;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #F0FFF0;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #DB7093;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1:hover {
+	color: #bf80ff;
+	cursor: pointer;
+}
+
+li:hover {
+	color: #b366ff;
+	cursor: pointer;
+}
+a:hover {
+	color: #ff1a1a;
+	cursor: pointer;
+}

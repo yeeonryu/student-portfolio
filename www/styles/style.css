@@ -1,55 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/alegre-sans');
+
 html {
   font-size: 15px;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: 'Alegre Sans', sans-serif;
+  letter-spacing: 5px;
+  background-color: white;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 
 h1 {
-  font-size: 70px;
+  font-size: 100px;
   text-align: center;
+  background-color:#ebded8;
 }
 
-h3 {
-  font-size: 16px;
-  text-align: center;
+h2 {
+  font-size: 26px;
+  display: flex;
+  padding-left: 50px;
+}
+ul {
+  padding-left: 50px;
 }
 
 p {
   font-size: 16px;
   line-height: 5;
-  letter-spacing: 1px;
 }
 
 li {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 2;
   letter-spacing: 1px;
-}
-
-
-html {
-  background-color: black;
+  justify-content: center;
 }
 
 
 body {
-  min-width: 1000px;
-  max-width: 1400px;
+  height: auto;
+  width: auto;
   margin: 0 auto;
-  padding-top: 50px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  padding-left: 20px;
   color: black;
   background-color: #fff3ed;
+  text-align: center;
  }
-
-section {
-    float: left;
-    line-height: 3;
-    width: 32%;
-    justify-content: center
-}
 
 h1 {
   margin: 0;
@@ -65,16 +61,19 @@ img {
   display: block;
   margin: 0 auto;
 }
-iframe {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+
+a {
+        text-decoration: none;
+	color: inherit;
 }
-li:hover {
-	color: #b366ff;
-	cursor: pointer;
+
+li{
+	text-align: left;
+	left: 100px;
 }
-a:hover {
-	color: #ff1a1a;
-	cursor: pointer;
+.fa_custom {
+	color: black;
+	display: block;
+	font-size: 48px;
 }
+

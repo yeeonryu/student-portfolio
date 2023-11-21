@@ -1,2 +1,2 @@
 # Student-Website
-student website for Yeeon
+A repository dedicated to my personal portfolio, presenting a compilation of web development projects I crafted during my high school years. Using HTML, CSS, and JavaScript, these projects showcase my hands-on experience and creativity. Additionally, tutorials covering HTML, CSS, JavaScript, and PHP that I've followed for educational purposes are featured in the repository, providing insights into my learning journey in web development.
